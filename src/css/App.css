@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-container {
+  display: inline-block;
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  border: 1px solid #ddd; /* Añade un borde */
+  padding: 1em;
+  margin: 1em;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card {
+  padding: 2em;
+  border: 1px solid #ddd; /* Añade un borde a la tarjeta */
+  margin-top: 1em;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1em;
+}
+
+
+.form-container form input[type="submit"] {
+  background-color: purple;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 16px; 
+
+}
+
+h2 {
+  color: purple;
+}
